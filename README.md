@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @nohzafk
 - 👀 I’m interested in Python, Cloud Computing, DevOps, Maching learning
-- 🌱 I mostly write Python, Emacs lsip and Gleam
+- 🌱 I mostly write Python, Emacs lisp and Gleam
 
 <!---
 nohzafk/nohzafk is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
