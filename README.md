@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @nohzafk
-- 👀 I’m interested in Python, Cloud Computing, DevOps, Maching learning
+- 👀 I’m interested in Cloud Computing, DevOps, Maching learning
 - 🌱 I mostly write Python, Emacs lisp and Gleam
 
 <!---
