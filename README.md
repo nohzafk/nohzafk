@@ -6,7 +6,7 @@ About:
 <br/>
 
 Contributions:
-- ✨ main contributor of lsp-bridge’s devcontainer support
+- ✨ main contributor of [lsp-bridge](https://github.com/manateelazycat/lsp-bridge)’s devcontainer support
 
 <!---
 nohzafk/nohzafk is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
