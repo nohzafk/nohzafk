@@ -37,12 +37,13 @@ everyday use.
 
 ## Open-source contributions
 
-- **[Elle](https://github.com/elle-lisp/elle)** — 13 merged contributions across
-  compiler correctness, region-inference performance, standard-library caching,
-  stack safety, cross-thread ownership, and macOS support.
+- **[Elle](https://github.com/elle-lisp/elle)** — my
+  [merged contributions](https://github.com/elle-lisp/elle/pulls?q=is%3Apr+is%3Amerged+author%3Anohzafk)
+  span compiler correctness, region-inference performance, standard-library
+  caching, stack safety, cross-thread ownership, and macOS support.
 - **[lsp-bridge](https://github.com/manateelazycat/lsp-bridge)** — a fast LSP
-  client for Emacs. I built its Dev Container integration and contributed
-  language-server support and concurrency fixes across 17 merged pull requests.
+  client for Emacs. I built its Dev Container integration and
+  [contributed language-server support and concurrency fixes](https://github.com/manateelazycat/lsp-bridge/pulls?q=is%3Apr+is%3Amerged+author%3Anohzafk).
 
 ## GitHub activity
 
