@@ -2,8 +2,8 @@
 
 I learn by building. My interests move across programming languages, developer
 tools, human–agent systems, and experiments that turn an idea into something I
-can test. I write about what survives contact with a compiler, a benchmark, or
-everyday use.
+can test. I write about what I learn by building, measuring, and using things in
+practice.
 
 [Blog](https://nohzafk.github.io/) ·
 [Bend 2, from zero](https://nohzafk.github.io/bend2-from-zero/)
