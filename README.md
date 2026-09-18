@@ -1,8 +1,8 @@
 # nohz.afk
 
-I build developer tools around Emacs, Rust, and reproducible development
-environments. I care about fast feedback, dependable workflows, and tools that
-make their behavior understandable.
+I build developer tools for Emacs with Rust and Emacs Lisp, focusing on
+performance, native macOS integration, and reproducible development
+environments.
 
 ## Selected work
 
@@ -25,9 +25,10 @@ make their behavior understandable.
   caching and stack safety, cross-thread memory ownership, and macOS support. I
   also built **[tree-sitter-elle](https://github.com/nohzafk/tree-sitter-elle)**
   for structural search and rewriting.
-- **[lsp-bridge](https://github.com/manateelazycat/lsp-bridge)** — I developed
-  its Dev Container integration and continue to contribute container support,
-  language-server support, and concurrency fixes.
+- **[lsp-bridge](https://github.com/manateelazycat/lsp-bridge)** — a fast LSP
+  client for Emacs that provides code completion, diagnostics, and navigation
+  through language servers. I built its Dev Container integration and
+  contributed language-server support and concurrency fixes.
 
 ## GitHub activity
 
