@@ -1,34 +1,48 @@
 # nohz.afk
 
-I build developer tools for Emacs with Rust and Emacs Lisp, focusing on
-performance, native macOS integration, and reproducible development
-environments.
+I learn by building. My interests move across programming languages, developer
+tools, human–agent systems, and experiments that turn an idea into something I
+can test. I write about what survives contact with a compiler, a benchmark, or
+everyday use.
 
-## Selected work
+[Blog](https://nohzafk.github.io/) ·
+[Bend 2, from zero](https://nohzafk.github.io/bend2-from-zero/)
 
-- **[emacs-egui](https://github.com/nohzafk/emacs-egui)** — a framework for
-  building GPU-accelerated Rust/egui applications that run inside Emacs through
-  WebAssembly.
-- **[consult-snapfile](https://github.com/nohzafk/consult-snapfile)** — instant
-  file finding for Emacs, backed by a cached Rust server and nucleo fuzzy
-  matching.
-- **[emacs-anywhere](https://github.com/nohzafk/emacs-anywhere)** — edit text
-  from any macOS application in Emacs, using native Accessibility APIs without
-  disturbing the clipboard.
+## What I’m exploring
+
+- **[Bend 2, from zero](https://github.com/nohzafk/bend2-from-zero)** — a
+  from-first-principles book built from runnable experiments. It covers affine
+  values, parallel CPU and GPU execution, Conway’s Life, laws, proofs, and the
+  measurements behind every performance claim.
+- **Languages by building with them** — I have ported
+  [The Little Learner](https://github.com/nohzafk/the_gleam_learner) to Gleam,
+  published [Gleam libraries](https://hex.pm/packages/gtransducer), built a
+  parser-combinator [JSON parser](https://github.com/nohzafk/gjson-parser), and
+  created [tree-sitter-elle](https://github.com/nohzafk/tree-sitter-elle) for
+  structural search and rewriting in Elle.
+- **Tools for working with agents** —
+  [memhub](https://github.com/nohzafk/memhub) shares long-term memory across
+  machines and coding agents; [ClaudePad](https://github.com/nohzafk/claude-pad)
+  and [agent-shell-hud](https://github.com/nohzafk/agent-shell-hud) explore ways
+  to direct and observe agents without losing your own train of thought.
+- **Developer tools** — Emacs is one long-running part of this work:
+  [emacs-egui](https://github.com/nohzafk/emacs-egui) brings Rust/egui WebAssembly
+  applications into Emacs, [consult-snapfile](https://github.com/nohzafk/consult-snapfile)
+  makes file search effectively instant, and
+  [emacs-anywhere](https://github.com/nohzafk/emacs-anywhere) connects Emacs to
+  native macOS applications.
+- **Systems in the real world** — I document the details that usually disappear,
+  from making [Linux work on a T1 MacBook Pro](https://github.com/nohzafk/omarchy-macbookpro-t1)
+  to building a multi-channel [writing and publishing system](https://nohzafk.github.io/).
 
 ## Open-source contributions
 
-- **[Elle](https://github.com/elle-lisp/elle)** — I contribute compiler and
-  runtime fixes to this modern Lisp implemented in Rust. My
-  [merged contributions](https://github.com/elle-lisp/elle/pulls?q=is%3Apr+is%3Amerged+author%3Anohzafk)
-  cover compiler correctness, region-inference performance, standard-library
-  caching and stack safety, cross-thread memory ownership, and macOS support. I
-  also built **[tree-sitter-elle](https://github.com/nohzafk/tree-sitter-elle)**
-  for structural search and rewriting.
+- **[Elle](https://github.com/elle-lisp/elle)** — 13 merged contributions across
+  compiler correctness, region-inference performance, standard-library caching,
+  stack safety, cross-thread ownership, and macOS support.
 - **[lsp-bridge](https://github.com/manateelazycat/lsp-bridge)** — a fast LSP
-  client for Emacs that provides code completion, diagnostics, and navigation
-  through language servers. I built its Dev Container integration and
-  contributed language-server support and concurrency fixes.
+  client for Emacs. I built its Dev Container integration and contributed
+  language-server support and concurrency fixes across 17 merged pull requests.
 
 ## GitHub activity
 
