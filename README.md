@@ -41,6 +41,10 @@ practice.
   [merged contributions](https://github.com/elle-lisp/elle/pulls?q=is%3Apr+is%3Amerged+author%3Anohzafk)
   span compiler correctness, region-inference performance, standard-library
   caching, stack safety, cross-thread ownership, and macOS support.
+- **[Bend](https://github.com/bendlang/bend)** — the
+  [issues I filed](https://github.com/bendlang/bend/issues?q=is%3Aissue+author%3Anohzafk)
+  found bugs in the compiler and its diagnostics, the law and proof system, package
+  resolution, and the macOS runtime; several are fixed upstream.
 - **[lsp-bridge](https://github.com/manateelazycat/lsp-bridge)** — a fast LSP
   client for Emacs. I built its Dev Container integration and
   [contributed language-server support and concurrency fixes](https://github.com/manateelazycat/lsp-bridge/pulls?q=is%3Apr+is%3Amerged+author%3Anohzafk).
