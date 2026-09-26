@@ -8,29 +8,49 @@ practice.
 [Blog](https://nohzafk.github.io/) ·
 [Bend 2, from zero](https://nohzafk.github.io/bend2-from-zero/)
 
-## What I’m exploring
+## What I build with
 
-- **[Bend 2, from zero](https://github.com/nohzafk/bend2-from-zero)** — a
-  from-first-principles book built from runnable experiments. It covers affine
-  values, parallel CPU and GPU execution, Conway’s Life, laws, proofs, and the
-  measurements behind every performance claim.
-- **Languages by building with them** — I have ported
-  [The Little Learner](https://github.com/nohzafk/the_gleam_learner) to Gleam,
-  published [Gleam libraries](https://hex.pm/packages/gtransducer), built a
-  parser-combinator [JSON parser](https://github.com/nohzafk/gjson-parser), and
-  created [tree-sitter-elle](https://github.com/nohzafk/tree-sitter-elle) for
-  structural search and rewriting in Elle.
+**Gleam.** I learned Gleam by porting
+[The Little Learner](https://github.com/nohzafk/the_gleam_learner), a book that
+builds deep learning from first principles, into it. Along the way I wrote a
+parser-combinator [JSON parser](https://github.com/nohzafk/gjson-parser) and
+[gtransducer](https://hex.pm/packages/gtransducer), a library on Hex that fuses
+mapping, filtering and reducing into one pass over the data, and can reduce in
+parallel.
+
+**Emacs.** Emacs is where I work all day, so many of my tools live there.
+[emacs-egui](https://github.com/nohzafk/emacs-egui) lets Emacs host GPU-drawn
+Rust/egui apps compiled to WebAssembly;
+[emacs-workspace-hud](https://github.com/nohzafk/emacs-workspace-hud) is one of
+them, a floating card with Git, LSP and diagnostic state.
+[consult-snapfile](https://github.com/nohzafk/consult-snapfile) finds files
+instantly through a Rust backend, [cli2eli](https://github.com/nohzafk/cli2eli)
+turns any command-line tool into Emacs commands, and
+[emacs-anywhere](https://github.com/nohzafk/emacs-anywhere) lets me edit text
+from any macOS app in Emacs.
+
+**Bend.** Bend 2 lets you state a law about a function and prove it for every
+input. I learned it by writing
+[Bend 2, from zero](https://github.com/nohzafk/bend2-from-zero), a book built
+from runnable experiments: affine values, parallel CPU and GPU execution,
+Conway’s Life, laws and proofs, with a measurement behind every performance
+claim. Then I put the proofs to work.
+[bend-emit](https://github.com/nohzafk/bend-emit) compiles a pure Bend core into
+a typed ES module, so TypeScript imports the very functions the proofs are
+about. [bend-schema](https://github.com/nohzafk/bend-schema) is built on it: a
+JSON schema library whose checker is proved correct, not only tested.
+
+**Elle.** For Elle, a Lisp written in Rust, I built
+[tree-sitter-elle](https://github.com/nohzafk/tree-sitter-elle), a grammar that
+makes structural search and rewriting with ast-grep possible.
+
+## Working with agents and machines
+
 - **Tools for working with agents** —
   [memhub](https://github.com/nohzafk/memhub) shares long-term memory across
   machines and coding agents; [ClaudePad](https://github.com/nohzafk/claude-pad)
   and [agent-shell-hud](https://github.com/nohzafk/agent-shell-hud) explore ways
   to direct and observe agents without losing your own train of thought.
-- **Developer tools** — Emacs is one long-running part of this work:
-  [emacs-egui](https://github.com/nohzafk/emacs-egui) brings Rust/egui WebAssembly
-  applications into Emacs, [consult-snapfile](https://github.com/nohzafk/consult-snapfile)
-  makes file search effectively instant, and
-  [emacs-anywhere](https://github.com/nohzafk/emacs-anywhere) connects Emacs to
-  native macOS applications.
 - **Systems in the real world** — I document the details that usually disappear,
   from making [Linux work on a T1 MacBook Pro](https://github.com/nohzafk/omarchy-macbookpro-t1)
   to building a multi-channel [writing and publishing system](https://nohzafk.github.io/).
